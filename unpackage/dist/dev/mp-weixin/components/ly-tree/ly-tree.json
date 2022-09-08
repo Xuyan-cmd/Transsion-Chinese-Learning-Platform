@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ly-tree-node": "/components/ly-tree/ly-tree-node"
+  }
+}

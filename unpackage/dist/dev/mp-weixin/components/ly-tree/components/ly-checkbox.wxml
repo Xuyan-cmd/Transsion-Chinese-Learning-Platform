@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" class="{{[classObj.wrapper]}}" catchtap="__e"><text class="{{[classObj.input,[(indeterminate)?'is-indeterminate':'',(checked)?'is-checked':'',(disabled)?'is-disabled':'']]}}"><text class="{{[classObj.inner]}}"></text></text></text>

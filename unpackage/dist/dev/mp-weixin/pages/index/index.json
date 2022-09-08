@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "custom-tabs": "/uni_modules/custom-tabs/components/custom-tabs/custom-tabs",
+    "custom-tab-pane": "/uni_modules/custom-tabs/components/custom-tab-pane/custom-tab-pane",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "ly-tree": "/components/ly-tree/ly-tree"
+  }
+}

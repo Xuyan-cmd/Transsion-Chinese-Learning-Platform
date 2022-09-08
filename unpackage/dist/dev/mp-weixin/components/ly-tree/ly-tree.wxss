@@ -1,0 +1,86 @@
+
+.ly-tree {
+	position: relative;
+	cursor: default;
+	background: #FFF;
+	color: #606266;
+	padding: 30rpx;
+}
+.ly-tree.is-empty {
+	background: transparent;
+}
+
+/* lyEmpty-start */
+.ly-empty {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100rpx;
+}
+
+/* lyEmpty-end */
+
+/* lyLoader-start */
+.ly-loader {
+	margin-top: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ly-loader-inner,
+.ly-loader-inner:before,
+.ly-loader-inner:after {
+	background: #efefef;
+	-webkit-animation: load 1s infinite ease-in-out;
+	        animation: load 1s infinite ease-in-out;
+	width: .5em;
+	height: 1em;
+}
+.ly-loader-inner:before,
+.ly-loader-inner:after {
+	position: absolute;
+	top: 0;
+	content: '';
+}
+.ly-loader-inner:before {
+	left: -1em;
+}
+.ly-loader-inner {
+	text-indent: -9999em;
+	position: relative;
+	font-size: 22rpx;
+	-webkit-animation-delay: 0.16s;
+	        animation-delay: 0.16s;
+}
+.ly-loader-inner:after {
+	left: 1em;
+	-webkit-animation-delay: 0.32s;
+	        animation-delay: 0.32s;
+}
+
+/* lyLoader-end */
+@-webkit-keyframes load {
+0%,
+	80%,
+	100% {
+		box-shadow: 0 0 #efefef;
+		height: 1em;
+}
+40% {
+		box-shadow: 0 -1.5em #efefef;
+		height: 1.5em;
+}
+}
+@keyframes load {
+0%,
+	80%,
+	100% {
+		box-shadow: 0 0 #efefef;
+		height: 1em;
+}
+40% {
+		box-shadow: 0 -1.5em #efefef;
+		height: 1.5em;
+}
+}
+
